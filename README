@@ -1,5 +1,7 @@
 Doofelations is the full text that you want. Each episode is headed by "Doofelations {Season X}: {Episode Name}," use ctrl+f to find specific episodes. The text only contains scenes that contain or mentino Dr. Doofenshmirtz. All transcripts were scraped from the phineas and ferb fandom wiki.
 
+If you go inside the doofbible folder there are some extra files for you to explore:
+
 The episode list is the complete list, in chronological order, of every movie or episode in the phineas and ferb franchise. I got ChatGPT to generate around half of it, corrected mistakes from ChatGPT, and then manually inputted the rest using the phineas and ferb fandom wiki.
 
 The reformatted episode list was just for the code. The two python scripts are for scraping the web page and converting the episode list into the reformatted one to slot into URLs. Take a look inside if you feel like it.
