@@ -54,17 +54,17 @@ for ep_index in range(len(episode_list)):
 
     #adds header to chapter of doofelations, with special cases outlined
     if "Phineas and Ferb the Movie" in ep_name:
-        doofelations += f"Doofelations Special | {ep_name}\n\n"
+        doofelations += f"Doofelations Special:{ep_index+1} | {ep_name}\n\n"
     elif "O.W.C.A. Files" in ep_name:
-        doofelations += f"Doofelations Special | {ep_name}\n\n"
+        doofelations += f"Doofelations Special:{ep_index+1} | {ep_name}\n\n"
     elif "Mission Marvel" in ep_name:
-        doofelations += f"Doofelations Special | {ep_name}\n\n"
+        doofelations += f"Doofelations Special:{ep_index+1} | {ep_name}\n\n"
     elif "Star Wars" in ep_name:
-        doofelations += f"Doofelations Special | {ep_name}\n\n"
+        doofelations += f"Doofelations Special:{ep_index+1} | {ep_name}\n\n"
     elif "Save Summer" in ep_name:
-        doofelations += f"Doofelations Special | {ep_name}\n\n"    
+        doofelations += f"Doofelations Special:{ep_index+1} | {ep_name}\n\n"    
     else: 
-         doofelations += f"Doofelations {season} | {ep_name}\n\n"
+         doofelations += f"Doofelations {season}:{ep_index+1} | {ep_name}\n\n"
     
     #adds text to doofelations
     doofelations += scrape_episode(urls[ep_index])
